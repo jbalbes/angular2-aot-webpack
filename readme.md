@@ -35,3 +35,10 @@ and quits with error code.
 
 If you wanna see Typescript tree-shaking 
 [check out this repository](https://github.com/blacksonic/typescript-webpack-tree-shaking).
+
+
+### Instructions
+```
+npm i
+npm start
+```
