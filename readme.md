@@ -18,10 +18,6 @@ Both development and production builds create the AOT compiled files.
 The application is bundled with Webpack from the bootstrap files and is available on ```http://localhost:9000```.
 You can change between the different builds with commenting/uncommenting entry files from ```index.html```.
 
-### Requirements
-
-- Typescript >= 1.9-dev
-
 ### Known issues
 
 Templates must be inlined to the components. 
