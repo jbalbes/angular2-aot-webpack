@@ -1,11 +1,5 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { HelloWorldComponent } from './hello-world.component';
+import * as es6Module from "./hello-world";
 
-@NgModule({
-  bootstrap: [HelloWorldComponent],
-  declarations: [HelloWorldComponent],
-  imports: [BrowserModule],
-  providers: []
-})
+@NgModule(es6Module)
 export class MainModule {}
